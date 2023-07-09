@@ -1,0 +1,87 @@
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.header-text {
+    margin-left: 100px;
+}
+
+img{
+    max-width: 100%;
+    width: 70%;
+    margin-right: 100px;
+}
+
+ul.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.skills-list li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul.skills-list li:last-child {
+    margin-right: 0;
+}
+
+ul.skills-list li a {
+    text-decoration: none;
+}
+
+.stack{
+    background-color: rgba(209, 209, 209, 0.2);
+    padding: 40px;
+}
+
+.experience{
+    background-color: white;
+    padding: 40px;
+}
+
+.project{
+    background-color: rgba(209, 209, 209, 0.2);
+    padding: 40px;
+}
+
+.contact{
+    background-color: white;
+    padding: 40px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+img.icons{
+    margin: auto;
+    width: 20%;
+}
+
+.footer {
+    background-color: #1b1b1b;
+    padding: 30px 0;
+}
+
+.footer .social-media {
+    justify-content: center;
+    
+}
+
+.footer .social-media li {
+    margin-right: 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+.footer .social-media li a {
+    color: #fff;
+    font-size: 24px;
+    
+}
+
+.footer p {
+    margin-bottom: 0;
+}
