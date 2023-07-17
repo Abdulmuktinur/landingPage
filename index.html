@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +21,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="">Home</a>
                     </li>
@@ -52,7 +52,7 @@
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="header-text">
                         <h1>Hallo 👋, I'm Abdul Mukti Nurrohman</h1>
-                        <p>I have experience in ui design and social media design. I am interested in design and information technology. I am confident in my ability to contribute to the company because I am a person who adapts quickly, is responsible, and likes challenges.</p>
+                        <p>I am interested in design and information technology. I am confident in my ability to contribute to the company because I am a person who adapts quickly, is responsible, and likes challenges.</p>
                         <ul class="skills-list">
                             <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-figma" width="60" height="60" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <circle cx="15" cy="12" r="3" /> <rect x="6" y="3" width="12" height="6" rx="3" /> <path d="M9 9a3 3 0 0 0 0 6h3m-3 0a3 3 0 1 0 3 3v-15" /> </svg></li>
                             <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="60" height="60" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" /> <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" /> </svg></li>
@@ -74,7 +74,9 @@
     <!-- Section Stack Start -->
     <div id="stack" class="stack mt-5">
         <section class="container">
-            <div class="row">
+            <h2>Stack</h2>
+            <p></p>
+            <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="card shadow">
                         <img class="icons mt-3" src="assets/images/ui.png" alt="UI Designer Icon">
@@ -109,7 +111,8 @@
     <!-- Section Stack End -->
 
     <!-- Section Experience Start -->
-    <div id="experience" class="experience mt-5">
+
+    <!-- <div id="experience" class="experience mt-5">
         <section class="container">
             <h2>Experience</h2>
             <div class="card shadow mt-3">
@@ -128,7 +131,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </div> -->
 
     <!-- Section Experience End -->
 
@@ -206,20 +209,25 @@
 
     <!-- Footer Start -->
 
-    <footer class="footer text-light p-4 mt-5">
-        <div class="container text-center">
-            <ul class="social-media">
-                <li><a href="https://dribbble.com/atek98" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/abdul-mukti-nurrohman-2406831b2/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="mailto:abdulmuktinurrohman@gmail.com"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-            <p>Copyright atek98 2023.</p>
-        </div>
-    </footer>
-
+    <div class="container-fluid bg-black">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1">
+              Atek98
+            </a>
+            <span class="mb-3 mb-md-0 text-white">&copy; 2023 Portofolio, Abdul Mukti Nurrohman</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-white" href="https://dribbble.com/atek98" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+            <li class="ms-3"><a class="text-white" href="https://www.linkedin.com/in/abdul-mukti-nurrohman-2406831b2/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="ms-3"><a class="text-white" href="mailto:abdulmuktinurrohman@gmail.com"><i class="fas fa-envelope"></i></a></li>
+          </ul>
+        </footer>
+    </div>
     <!-- Footer End -->
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script>
         function sendWhatsAppMessage(event) {
             event.preventDefault();
