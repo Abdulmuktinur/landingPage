@@ -69,6 +69,10 @@ No media query for `xs` since this is the default in Bootstrap */
         margin: auto;
     }
 
+    .header-text h1{
+     font-size: 98%;   
+    }
+
     .header-text p{
         font-size: 80%;
     }
