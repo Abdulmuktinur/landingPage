@@ -94,14 +94,30 @@ No media query for `xs` since this is the default in Bootstrap */
         padding-bottom: 32px;
     }
 
-    .card-text{
+    #stack .card-text{
         margin:auto;
         font-size: 14px;
         text-align: center;
     }
 
-    #projects h2, #projects p{
+    #projects h2{
         text-align: center;
+    }
+
+    p.des-title{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .project .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
+        margin-top: 24px;
+    }
+
+    #projects .card-text{
+        font-size: 80%;
+        text-align: left;
     }
 
     footer {
