@@ -69,12 +69,16 @@ No media query for `xs` since this is the default in Bootstrap */
         margin: auto;
     }
 
+    .header-text p{
+        font-size: 80%;
+    }
+
     .img-fluid{
         justify-items: center;
         margin: 24px auto;
     }
 
-    .container .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
+    .stack .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
         margin-top: 24px;
     }
 
@@ -84,7 +88,6 @@ No media query for `xs` since this is the default in Bootstrap */
 
     .card{
         margin: auto;
-        width: 400px;
     }
 
     .card .card-body{
@@ -92,7 +95,6 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .card-text{
-        width: 360px;
         margin:auto;
         font-size: 14px;
         text-align: center;
@@ -101,66 +103,18 @@ No media query for `xs` since this is the default in Bootstrap */
     #projects h2, #projects p{
         text-align: center;
     }
-}
 
-
-/* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
-    .header-text{
-        text-align: center;
-        margin: auto;
-    }
-
-    .img-fluid{
-        justify-items: center;
-        margin: 24px auto;
-    }
-
-    .container .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
-        margin-top: 24px;
-    }
-
-    #stack h2{
+    footer {
+        font-size: 12px;
+        margin: 0 auto;
         text-align: center;
     }
 
-    .card{
-        margin: auto;
-        width: 400px;
+    footer a.brand{
+        display: none;
     }
 
-    .card .card-body{
-        padding-bottom: 32px;
+    footer li.icons{
+        display: none;
     }
-
-    .card-text{
-        width: 360px;
-        margin:auto;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    #projects h2, #projects p{
-        text-align: center;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) { 
-
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) { 
-
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (max-width: 1400px) { 
-
 }
