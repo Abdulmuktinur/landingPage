@@ -54,3 +54,8 @@ ul.skills-list li a {
 .text-justify {
     text-align: justify;
 }
+
+img.icons{
+    margin: auto;
+    width: 20%;
+}
