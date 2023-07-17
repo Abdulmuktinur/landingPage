@@ -42,7 +42,6 @@ ul.skills-list li a {
 }
 
 .project{
-    background-color: rgba(209, 209, 209, 0.2);
     padding: 40px;
 }
 
@@ -58,4 +57,70 @@ ul.skills-list li a {
 img.icons{
     margin: auto;
     width: 20%;
+    padding: 14px 0;
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .header-text{
+        text-align: center;
+        margin: auto;
+    }
+
+    .img-fluid{
+        justify-items: center;
+        margin: 24px auto;
+    }
+
+    .container .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
+        margin-top: 24px;
+    }
+
+    #stack h2{
+        text-align: center;
+    }
+
+    .card{
+        margin: auto;
+        width: 400px;
+    }
+
+    .card .card-body{
+        padding-bottom: 32px;
+    }
+
+    .card-text{
+        width: 360px;
+        margin:auto;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #projects h2, #projects p{
+        text-align: center;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
 }
