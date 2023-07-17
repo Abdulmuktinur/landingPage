@@ -1,6 +1,7 @@
 body{
     background-color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
 }
 
 .header-text {
@@ -81,21 +82,18 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     .header-text h1{
-     font-size: 98%;   
+     font-size: 100%; 
+     line-height: 1.5rem;  
     }
 
     .header-text p{
-        font-size: 80%;
+        font-size: 65%;
     }
 
     .header-text svg{
         width: 40px;
         height: 40px;
     }
-
-    /* .header-text svg:hover{
-        stroke: rgb(0, 110, 255);
-    } */
 
     .img-fluid{
         justify-items: center;
@@ -134,30 +132,42 @@ No media query for `xs` since this is the default in Bootstrap */
     p.des-title{
         margin: 0 auto;
         text-align: center;
-        font-size: 12px;
+        font-size: 65%;
         width: 100%;
     }
 
-    .project .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
+    #projects .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
         margin-top: 24px;
     }
 
-    #projects .card-text{
-        font-size: 80%;
+    #projects .card-ttitle{
+        font-size: 75%;
         text-align: left;
     }
 
-    footer {
-        font-size: 12px;
-        margin: 0 auto;
-        text-align: center;
+    #projects .card-text{
+        font-size: 65%;
+        text-align: left;
     }
+
+    #contact{
+        font-size: 75%;
+    }
+
+    footer{
+        font-size: 75%;
+    }
+
+    footer .col-md-4 {
+        text-align: center;
+      }
 
     footer a.brand{
         display: none;
     }
 
-    footer li.icons{
+    footer .icons{
         display: none;
     }
+
 }
