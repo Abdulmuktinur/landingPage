@@ -2,9 +2,20 @@ body{
     background-color: white;
     font-family: 'Poppins', sans-serif;
 }
+
 .header-text {
     margin-left: 100px;
 }
+
+.header-text svg{
+    width: 60px;
+    height: 60px;
+}
+
+.header-text svg:hover{
+    stroke: rgb(22, 122, 236);
+}
+
 
 img{
     max-width: 100%;
@@ -76,6 +87,15 @@ No media query for `xs` since this is the default in Bootstrap */
     .header-text p{
         font-size: 80%;
     }
+
+    .header-text svg{
+        width: 40px;
+        height: 40px;
+    }
+
+    /* .header-text svg:hover{
+        stroke: rgb(0, 110, 255);
+    } */
 
     .img-fluid{
         justify-items: center;
