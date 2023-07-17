@@ -82,7 +82,7 @@ No media query for `xs` since this is the default in Bootstrap */
         margin: 24px auto;
     }
 
-    .stack .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
+    #stack .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
         margin-top: 24px;
     }
 
@@ -90,17 +90,20 @@ No media query for `xs` since this is the default in Bootstrap */
         text-align: center;
     }
 
-    .card{
+    #stack .card{
         margin: auto;
     }
 
-    .card .card-body{
+    #stack .card .card-body{
         padding-bottom: 32px;
     }
 
+    #stack .card-title{
+        font-size: 98%;
+    }
     #stack .card-text{
         margin:auto;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
     }
 
