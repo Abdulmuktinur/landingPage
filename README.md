@@ -9,17 +9,17 @@
 - Social Media Design
 
 ### My Project
-- Social Media Designer
+- #### Social Media Designer
   - Eglowplatinumskin.id
     
     [![Behance](https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/gallery/167707515/Social-Media-Designer)
 
-- UI Designer
+- #### UI Designer
   - Website
 
     [![Behance](https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/gallery/169731459/Website-Landing-Page-Coffee-Shop)
 
-- Front End Developer
+- #### Front End Developer
   - Website LandingPage Kopas Access
 
     [![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://abdulmuktinur.github.io/kopas-access/)
