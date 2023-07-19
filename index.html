@@ -62,7 +62,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 d-flex justify-content-end">
+                <div class="header-image col-md-6 d-flex justify-content-end">
                     <img src="assets/images/header-ilustrator.svg" alt="Gambar" class="img-fluid">
                 </div>
             </div>
@@ -82,7 +82,7 @@
                         <img class="icons" src="assets/images/ui.png" alt="UI Designer Icon">
                         <div class="card-body">
                             <h5 class="card-title text-center">UI DESIGNER</h5>
-                            <p class="card-text text-center">UI Designers create wireframes, mockups, and prototypes, considering factors like accessibility and usability. Their goal is to enhance the user experience by creating engaging and visually appealing interfaces</p>
+                            <p class="card-text text-center">UI Designers create wireframes, mockups, and prototypes, considering factors like accessibility and usability.</p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                         <img class="icons" src="assets/images/code.png" alt="front end Icon">
                         <div class="card-body">
                             <h5 class="card-title text-center">FRONT END DEVELOPER</h5>
-                            <p class="card-text text-center">A Frontend Developer focuses on creating the user-facing components of websites or applications. They use technologies like HTML, CSS, and JavaScript to build responsive and visually appealing interfaces. </p>
+                            <p class="card-text text-center">A Frontend Developer focuses on creating the user-facing components of websites or applications.</p>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
                         <img class="icons" src="assets/images/sosmed.png" alt="sosmed Icon">
                         <div class="card-body">
                             <h5 class="card-title text-center">SOCIAL MEDIA DESIGNER</h5>
-                            <p class="card-text text-center">A Social Media Designer creates visually appealing content for social media platforms. They work closely with marketing teams to produce engaging graphics, images, and videos that align with the brand's identity. </p>
+                            <p class="card-text text-center">A Social Media Designer creates visually and managed appealing content for social media platforms.</p>
                         </div>
                     </div>
                 </div>
@@ -144,31 +144,31 @@
             <div class="row mt-4">
                 <div class="col-md-4">
                     <div class="card shadow">
-                        <img src="assets/images/Cover Behance.jpg" class="card-img-top" alt="Portfolio 1">
+                        <img src="assets/images/SosMedDesProject1.webp" class="card-img-top" alt="Portfolio 1">
                         <div class="card-body">
                             <h5 class="card-title">SOCIAL MEDIA DESIGNER</h5>
-                            <p class="card-text text-left">Managing, creating, and organizing social media campaigns for eglowplatinumskin.id involve a series of tasks aimed at promoting the brand on social media platforms.</p>
+                            <p class="card-text text-left">A create design content social media eglowplatinumskin.id.</p>
                             <a href="https://www.behance.net/gallery/167707515/Social-Media-Designer" class="btn btn-primary" target="_blank">Details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card shadow">
-                        <img src="assets/images/Thumbnails behance.jpg" class="card-img-top" alt="Portfolio 2">
+                        <img src="assets/images/UIProject1.webp" class="card-img-top" alt="Portfolio 2">
                         <div class="card-body">
                             <h5 class="card-title">UI DESIGNER</h5>
-                            <p class="card-text">A landing page for a coffee shop is a specifically designed homepage that aims to capture visitors' attention and invite them to explore more about the coffee shop. </p>
+                            <p class="card-text">A landing page design doffee shop using Figma.</p>
                             <a href="https://www.behance.net/gallery/169731459/Website-Landing-Page-Coffee-Shop" class="btn btn-primary" target="_blank">Details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card shadow">
-                        <img src="assets/images/Thumbnails behance.jpg" class="card-img-top" alt="Portfolio 2">
+                        <img src="assets/images/WebDevProject1.webp" class="card-img-top" alt="Portfolio 2">
                         <div class="card-body">
-                            <h5 class="card-title">UI DESIGNER</h5>
-                            <p class="card-text">A landing page for a coffee shop is a specifically designed homepage that aims to capture visitors' attention and invite them to explore more about the coffee shop. </p>
-                            <a href="https://www.behance.net/gallery/169731459/Website-Landing-Page-Coffee-Shop" class="btn btn-primary" target="_blank">Details</a>
+                            <h5 class="card-title">Web Developer</h5>
+                            <p class="card-text">A Landing page kopasAccess build github pages.</p>
+                            <a href="https://abdulmuktinur.github.io/kopas-access/" class="btn btn-primary" target="_blank">Details</a>
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@
             <h2>Contact</h2>
             <div class="row mt-3">
                 <div class="col-md-6">
-                    <form onsubmit="sendWhatsAppMessage(event)">
+                    <form onsubmit="sendTelegramMessage(event)">
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
                             <input type="text" class="form-control" id="name" name="name" required>
@@ -211,7 +211,7 @@
 
     <div class="container-fluid bg-black">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5">
-          <div class="col-md-4 d-flex align-items-center">
+          <div class="col-md-6 mb-md-0 align-items-center">
             <a href="/" class="brand mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1">
               Atek98
             </a>
@@ -228,20 +228,40 @@
     <!-- Footer End -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <!-- <script>
-        function sendWhatsAppMessage(event) {
-            event.preventDefault();
+    <script>
+        // function sendWhatsAppMessage(event) {
+        //     event.preventDefault();
 
+        //     var name = document.getElementById('name').value;
+        //     var subject = document.getElementById('subject').value;
+        //     var message = document.getElementById('message').value;
+
+        //     var encodedMessage = encodeURIComponent(message);
+        //     var whatsappLink = `https://api.whatsapp.com/send?phone=6285773516321&text=${encodedMessage}`;
+
+        //     window.location.href = whatsappLink;
+        // }
+
+        function sendTelegramMessage(event) {
+            event.preventDefault(); // Prevent form submission from refreshing the page
+
+            // Get the form data
             var name = document.getElementById('name').value;
             var subject = document.getElementById('subject').value;
             var message = document.getElementById('message').value;
 
-            var encodedMessage = encodeURIComponent(message);
-            var whatsappLink = `https://api.whatsapp.com/send?phone=6285773516321&text=${encodedMessage}`;
+            // Perform any necessary validation on the form data
+            // ...
 
-            window.location.href = whatsappLink;
+            // Send the message to Telegram or perform any desired action
+            // ...
+
+            // Reset the form after submission (optional)
+            document.getElementById('name').value = '';
+            document.getElementById('subject').value = '';
+            document.getElementById('message').value = '';
         }
-    </script> -->
+    </script>
 </body>
 
 </html>

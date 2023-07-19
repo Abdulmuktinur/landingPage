@@ -18,7 +18,7 @@ body{
 }
 
 
-img{
+.header-image img{
     max-width: 100%;
     width: 70%;
     margin-right: 100px;
@@ -43,18 +43,36 @@ ul.skills-list li a {
     text-decoration: none;
 }
 
-.stack{
+#stack{
     background-color: rgba(209, 209, 209, 0.2);
     padding: 40px;
 }
 
-.experience{
-    background-color: white;
-    padding: 40px;
+#stack img.icons{
+    margin: auto;
+    width: 20%;
+    padding: 14px 0;
+    width: 60px;
+    height: width * 0.5;
 }
 
-.project{
+#stack .card-text{
+    font-size: 80%;
+    color: rgb(134, 134, 134);
+}
+
+/* .experience{
+    background-color: white;
     padding: 40px;
+} */
+
+#projects{
+    padding: 40px 0;
+    font-size: 80%;
+}
+
+#project .card-body{
+    max-height: 240px;
 }
 
 .contact{
@@ -66,11 +84,10 @@ ul.skills-list li a {
     text-align: justify;
 }
 
-img.icons{
-    margin: auto;
-    width: 20%;
-    padding: 14px 0;
+footer{
+    font-size: 80%;
 }
+
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
