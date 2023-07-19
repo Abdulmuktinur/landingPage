@@ -136,6 +136,7 @@ No media query for `xs` since this is the default in Bootstrap */
     #stack .card-title{
         font-size: 98%;
     }
+
     #stack .card-text{
         margin:auto;
         font-size: 12px;
@@ -149,7 +150,7 @@ No media query for `xs` since this is the default in Bootstrap */
     p.des-title{
         margin: 0 auto;
         text-align: center;
-        font-size: 65%;
+        font-size: 80%;
         width: 100%;
     }
 
@@ -163,7 +164,7 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     #projects .card-text{
-        font-size: 65%;
+        font-size: 80%;
         text-align: left;
     }
 
@@ -175,7 +176,7 @@ No media query for `xs` since this is the default in Bootstrap */
         font-size: 75%;
     }
 
-    footer .col-md-4 {
+    footer .span {
         text-align: center;
       }
 
