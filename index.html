@@ -46,13 +46,13 @@
     <!-- Navbar End -->
 
     <!-- Header Start -->
-    <header id="home" class="p-4 mt-5">
+    <header id="home" class="py-4 mt-5">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 d-flex align-items-center">
                     <div class="header-text">
                         <h1>Hallo 👋, I'm Abdul Mukti Nurrohman</h1>
-                        <p>I am interested in design and information technology. I am confident in my ability to contribute to the company because I am a person who adapts quickly, is responsible, and likes challenges.</p>
+                        <p class="header-des">I am interested in design and information technology. I am confident in my ability to contribute to the company because I am a person who adapts quickly, is responsible, and likes challenges.</p>
                         <ul class="skills-list">
                             <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-figma"  viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <circle cx="15" cy="12" r="3" /> <rect x="6" y="3" width="12" height="6" rx="3" /> <path d="M9 9a3 3 0 0 0 0 6h3m-3 0a3 3 0 1 0 3 3v-15" /> </svg></li>
                             <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5"  viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"> <path stroke="none" d="M0 0h24v24H0z" fill="none"/> <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" /> <path d="M15.5 8h-7l.5 4h6l-.5 3.5l-2.5 .75l-2.5 -.75l-.1 -.5" /> </svg></li>
@@ -210,25 +210,40 @@
     <!-- Footer Start -->
 
     <div class="container-fluid bg-black">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mx-5">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
           <div class="col-md-6 mb-md-0 align-items-center">
-            <a href="/" class="brand mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1">
+            <a href="/" class="brand mb-md-0 text-white text-decoration-none lh-1">
               Atek98
             </a>
-            <span class="mb-3 mb-md-0 text-white">&copy; 2023 Portofolio, Abdul Mukti Nurrohman</span>
+            <span class="text mb-md-0 text-white">&copy; 2023 Portofolio, Abdul Mukti Nurrohman</span>
           </div>
       
-          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="icons ms-3"><a class="text-white" href="https://dribbble.com/atek98" target="_blank"><i class="fab fa-dribbble"></i></a></li>
-            <li class="icons ms-3"><a class="text-white" href="https://www.linkedin.com/in/abdul-mukti-nurrohman-2406831b2/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li class="icons ms-3"><a class="text-white" href="mailto:abdulmuktinurrohman@gmail.com"><i class="fas fa-envelope"></i></a></li>
+          <ul id="iconsList" class="icons nav col-md-6 justify-content-end list-unstyled d-flex">
+            <li><a class="text-white" href="https://dribbble.com/atek98" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+            <li><a class="text-white" href="https://www.linkedin.com/in/abdul-mukti-nurrohman-2406831b2/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="text-white" href="mailto:abdulmuktinurrohman@gmail.com"><i class="fas fa-envelope"></i></a></li>
           </ul>
         </footer>
-    </div>
+      </div>      
     <!-- Footer End -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script>
+        function updateIconsList() {
+            var iconsList = document.getElementById('iconsList');
+
+            if (window.innerWidth <= 360) {
+            iconsList.classList.remove('justify-content-end');
+            iconsList.classList.add('justify-content-center');
+            } else {
+            iconsList.classList.remove('justify-content-center');
+            iconsList.classList.add('justify-content-end');
+            }
+        }
+
+        window.addEventListener('resize', updateIconsList);
+        updateIconsList();
+
         // function sendWhatsAppMessage(event) {
         //     event.preventDefault();
 

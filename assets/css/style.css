@@ -5,7 +5,7 @@ body{
 }
 
 .header-text {
-    margin-left: 100px;
+    margin-left: 104.5px;
 }
 
 .header-text svg{
@@ -17,29 +17,32 @@ body{
     stroke: rgb(22, 122, 236);
 }
 
+.header-text p.header-des{
+    font-size: 80%;
+}
 
 .header-image img{
     max-width: 100%;
     width: 70%;
-    margin-right: 100px;
+    margin-right: 104.5px;
 }
 
-ul.skills-list {
+#home ul.skills-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-ul.skills-list li {
+#home ul.skills-list li {
     display: inline;
     margin-right: 10px;
 }
 
-ul.skills-list li:last-child {
+#home ul.skills-list li:last-child {
     margin-right: 0;
 }
 
-ul.skills-list li a {
+#home ul.skills-list li a {
     text-decoration: none;
 }
 
@@ -88,6 +91,21 @@ footer{
     font-size: 80%;
 }
 
+footer a.brand{
+    margin-left: 104.5px;
+    padding-right: 14px;
+}
+
+footer i.fab, i.fas{
+    font-size: 22px;
+}
+
+footer ul.icons {
+    padding-right: 104.5px;
+
+    gap: 20px;
+}
+
 
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
@@ -103,8 +121,8 @@ No media query for `xs` since this is the default in Bootstrap */
      line-height: 1.5rem;  
     }
 
-    .header-text p{
-        font-size: 65%;
+    .header-text p.header-des{
+        font-size: 70%;
     }
 
     .header-text svg{
@@ -112,7 +130,7 @@ No media query for `xs` since this is the default in Bootstrap */
         height: 40px;
     }
 
-    .img-fluid{
+    #home .img-fluid{
         justify-items: center;
         margin: 24px auto;
     }
@@ -169,24 +187,41 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     #contact{
-        font-size: 75%;
+        font-size: 80%;
     }
 
     footer{
-        font-size: 75%;
+        font-size: 80%;
     }
-
-    footer .span {
-        display: inline;
+    
+    footer a.brand {
+        display: flex;
         text-align: center;
-      }
-
-    footer a.brand{
-        display: none;
+        justify-content: center;
+        margin-left: 0 !important;
+        padding: 0;
+        margin-bottom: 8px;
     }
 
-    footer .icons{
-        display: none;
+    footer span.text {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 8px;
+    }
+    
+    footer.flex-wrap > * {
+        flex-basis: 100%;
+    }
+    
+    footer ul.icons {
+        padding: 0;
+        gap: 20px;
+    }
+
+    footer i.fab, i.fas{
+        font-size: 90%;
     }
 
 }
