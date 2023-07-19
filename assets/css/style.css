@@ -110,7 +110,11 @@ footer ul.icons {
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
-@media (max-width: 360px) { 
+@media (max-width: 360px) {
+    #navbarNav li a{
+        font-size: 80%;
+    }
+    
     .header-text{
         text-align: center;
         margin: auto;
@@ -177,7 +181,7 @@ No media query for `xs` since this is the default in Bootstrap */
     }
 
     #projects .card-ttitle{
-        font-size: 75%;
+        font-size: 80%;
         text-align: left;
     }
 
