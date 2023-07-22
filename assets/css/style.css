@@ -219,10 +219,10 @@ No media query for `xs` since this is the default in Bootstrap */
         flex-basis: 100%;
     }
     
-    footer ul.icons li {
+/*     footer ul.icons li {
         padding-right: 20px;
         padding-left: 20px;
-    }
+    } */
 
     footer i.fab, i.fas{
         font-size: 90%;
