@@ -221,7 +221,7 @@ No media query for `xs` since this is the default in Bootstrap */
     
     footer ul.icons {
         padding: 0;
-        gap: 20px;
+        gap: 40px;
     }
 
     footer i.fab, i.fas{
