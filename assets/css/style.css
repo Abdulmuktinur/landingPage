@@ -110,7 +110,7 @@ footer ul.icons {
 /* X-Small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
-@media (max-width: 360px) {
+@media only screen and (max-width: 576px) {
     #navbarNav li a{
         font-size: 80%;
     }
