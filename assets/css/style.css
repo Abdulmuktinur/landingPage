@@ -220,13 +220,8 @@ No media query for `xs` since this is the default in Bootstrap */
     }
     
     footer ul.icons {
-        padding: 0;
-        gap: 20px;
+        padding: 20px;
     }
-
-    footer ul li{
-        gap: 20px;
-    } 
 
     footer i.fab, i.fas{
         font-size: 90%;
