@@ -179,6 +179,10 @@ No media query for `xs` since this is the default in Bootstrap */
     #projects .col-md-4:nth-child(2),.col-md-4:nth-child(3) {
         margin-top: 24px;
     }
+    
+    #projects .col-md-4:nth-child(4) {
+        margin-top: 8px;
+    }
 
     #projects .card-ttitle{
         font-size: 80%;
@@ -221,6 +225,7 @@ No media query for `xs` since this is the default in Bootstrap */
     
     footer ul.icons {
        padding: 0;
+        gap: 20px !importan;
     }
 
     footer i.fab, i.fas{
