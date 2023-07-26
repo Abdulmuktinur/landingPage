@@ -224,8 +224,8 @@ No media query for `xs` since this is the default in Bootstrap */
         gap: 20px !important;
     }
 
-    footer i.fab, i.fas{
+/*     footer i.fab, i.fas{
         font-size: 90%;
-    }
+    } */
 
 }
