@@ -1,7 +1,7 @@
 # Website My Portofolio
 
 ### Hello 👋, I'm Abdul Mukti Nurrohman
-#### I am interested in design and information technology. I am confident in my ability to contribute to the company because I am a person who adapts quickly, is responsible, and likes challenges.
+#### I'm enthusiastic about pursuing a career in information technology, encompassing areas like hardware, software, networking, and design. With a knack for swift adaptation, a strong sense of responsibility, and a penchant for embracing challenges, I'm confident in my ability to make meaningful contributions to any company. My educational foundation and proficient IT skills further bolster my confidence in the value I can bring to the table.
 
 ### Stack
 - UI Designer 

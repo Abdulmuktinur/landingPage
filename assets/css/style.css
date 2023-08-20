@@ -19,6 +19,7 @@ body{
 
 .header-text p.header-des{
     font-size: 80%;
+    text-align: justify;
 }
 
 .header-image img{
@@ -224,8 +225,8 @@ No media query for `xs` since this is the default in Bootstrap */
         gap: 20px !important;
     }
 
-    footer i.fab, i.fas{
+/*     footer i.fab, i.fas{
         font-size: 90%;
-    }
+    } */
 
 }
